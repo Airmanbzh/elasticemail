@@ -1,0 +1,26 @@
+{
+    "name": "airmanbzh/elasticemail",
+    "type": "library",
+    "description": "Clean adaptation of elastic-email/web-api-client",
+    "keywords": ["elastic","email", "elasticemail", "transactional", "web", "api"],
+    "homepage": "https://github.com/Airmanbzh/elasticemail",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "LE BOULC'H Brice",
+            "email": "airmanbzh@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/airmanbzh/elasticemail/issues"
+    },
+    "autoload": {
+        "psr-4": {
+            "ElasticEmailClient\\": "src/ElasticEmailClient/"
+        }
+    },
+    "require": {
+        "php": ">=5.3.0"
+    }
+}
